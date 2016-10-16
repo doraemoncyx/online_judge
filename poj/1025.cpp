@@ -18,7 +18,7 @@ int strtime_to_int(string strTime)
 
 string inttime_to_str(int intTime)
 {
-	char ret[20];
+	char ret[20]; 
 	int hour = intTime / 3600, minute = (intTime % 3600) / 60, sec = intTime % 60;
 	sprintf_s(ret, "%.2d:%.2d:%.2d", hour, minute, sec);
 	return string(ret);
