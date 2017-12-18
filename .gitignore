@@ -27,3 +27,11 @@
 *.exe
 *.out
 *.app
+
+#proj
+.idea/*
+codewars.iml
+Project_Default.xml
+misc.xml
+modules.xml
+workspace.xml
